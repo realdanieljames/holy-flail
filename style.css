@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 #app {
@@ -15,11 +16,15 @@
 }
 
 #middle {
+  display: flex;
+  flex-direction : row;
+  
   height: 60vh;
   width: 100vw;
 }
 
 #main {
+  display: flex;
   width: 80%;
 }
 
@@ -29,6 +34,7 @@
 }
 
 #articles {
+  height: 60vh;
   width: 60vw;
   background-color: #6a8d92;
 }
